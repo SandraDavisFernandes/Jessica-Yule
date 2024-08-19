@@ -1,0 +1,263 @@
+html {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #91DDCF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, #E3FEF7, #5DEBD7, #9AD0C2););
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+/* Cor padrão dos links não visitados */
+a:link {
+    color: #180161; /* Cor padrão para links não visitados */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Cor dos links já visitados, MAS nao funciona. se eu colocar este estilo os outros nao funcionam e nao sei pq 
+a:visited { color: grey; */
+
+
+/* Cor dos links ao passar o mouse */
+a:hover {
+    color: #F19ED2; /* Cor ao passar o mouse sobre o link */
+}
+
+/* Cor ao clicar no link (opcional) */
+a:active {
+    color: #D67BFF; /* Cor do link enquanto ele está sendo clicado */
+}
+
+.mandala {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+#navMenuList{
+    list-style: none;
+}
+
+.barraNav {
+    margin-top: 5%;
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    font-size: 3rem;
+    justify-content: center;
+}
+
+.profile {
+    list-style: none;
+}
+
+#foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.mainLR {
+    margin-top: 5%;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.mainRight img:hover {
+    transform: scale(1.1);
+}
+
+.mainLeft {
+    border: 3px solid #7BD3EA;
+    padding: 2%;
+    
+}
+
+.mainRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li {
+    text-align: left;
+}
+
+.videos{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 350px;
+    margin-right: 30px;
+    display: block;
+    font-size: 1.8rem;
+}
+
+.aRodape {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.ancoraRodape img {
+    height: 50px !important;
+    width: auto; 
+}
+
+.copyRight{
+    font-size: 1rem;
+}
+
+#termosEcondicoes p{
+    font-size: 1rem;
+}
+
+.copyTermos {
+    display: flex;
+    gap: 80%;
+}
+
+.tcond {
+    margin-left: 10%;
+}
+
+
+/* pagina Contato*/
+
+fieldset {
+    width: 55%;
+}
+
+.dadosPessoais input {
+    display: block;
+    width: 98%;
+}
+
+.mensagem input {
+    display: block;
+}
+
+.mensagem label {
+    display: block;
+}
+
+.mensagem textarea{
+    display: block;
+    width: 98%;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+input {
+    font-size: 1.4rem;
+}
+
+legend {
+    font-size: 1.6rem;
+}
+
+.alimentacao {
+    margin-top: 2%;
+}
+
+header {
+    margin-bottom: 5%;
+}
+
+.mensagem {
+    margin-top: 2%;
+}
+
+.formulario {
+    margin-left: 20%;
+}
+
+.enviarMensagem {
+    margin-top: 2%;
+}
+
+
+/* pagina Video*/
+
+.pgVideos {
+    display: flex;
+    gap: 10%,
+}
+
+.profilefoto{
+    margin-left: 5%;
+}
+
+.fotoYoutube {
+    padding: 4%;
+    margin-left: 2%;
+}
+
+
+
+/* pagina TErmos e Condicoes*/
+
+.tc {
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+
+.termoseCondicoes {
+    text-align: justify;
+    margin: 5%;
+}
+
+
+/* pagina Info*/
+.info p{
+   padding: 1%;
+   font-size: 2rem;
+   margin-left: 4%;
+}
+
+.info h2{
+    margin-left: 4%;
+
+ }
+
+.foto2 {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* pagina Tratamentos*/
+
+.planos {
+    font-size: 1.5rem;
+}
+
+.planosAyurveda h3{
+    font-size: 1.5rem;
+}
+
+#tratamentos {
+    margin-left: 10%;
+}
